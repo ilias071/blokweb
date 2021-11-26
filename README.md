@@ -77,7 +77,14 @@ Latest
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+<img src="images/Screenshot_1_week1_uitwerkingen.jpg">
+<img src="images/Screenshot_1_week1_uitwerkingen2.jpg">
+
+<p>Ik heb succesvol de elementen vanuit mijn breakdownschets verwerkt op mijn website, ook heb ik alle content toegevoegd. dit ging allemaal
+best gemakkelijk maar ik moet nu zien uit te zoeken hoe ik met flexbox de website layout er beter uit laat zien en daarbij moet ik dan de juiste formaten van de afbeeldingen per device verwerken. </p>
+<img src="images/Screenshot_1_week1_uitwerkingen3.jpg">
+<img src="images/Screenshot_1_week1_uitwerkingen4.jpg">
+<p>Dit is de code die ik heb gebruikt. Het bevat de gehele structuur van mijn website en de content. Ik heb nog niets gedaan kwa CSS. Het is nu puur de structuur en de content. Het schrijven van de code was vrij eenvoudig, ik denk dat de uitdaging pas later zal komen wanneer ik met de layout en responsiveness bezig ga zijn.</p>
 
 ### Agenda voor meeting
 
