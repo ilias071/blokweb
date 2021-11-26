@@ -66,9 +66,11 @@ Latest
 
 ### wellicht nog een dynamisch deel (bijv filter):
 
-<img src="images/breakdownschets_dynamisch.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 <img src="images/breakdownschets_dynamisch2.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
+### dynamisch deel (bijv menu):
+
+<img src="images/breakdownschets_dynamisch.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 </details>
 
 ## Voortgang 1 (week 2)
@@ -101,10 +103,9 @@ samen met je groepje opstellen
 
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Verder werken met grid layout en met 1 kolom beginnen en later met mediaqueries werken
+- CSS toevoegen maar tot nu to loop ik op schema, het is nu een kwestie van meer tijd in de website steken
+- De images op de website beter schalen
 
 </details>
 
