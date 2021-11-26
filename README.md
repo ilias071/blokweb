@@ -58,15 +58,15 @@ Latest
 
 ### de hele pagina:
 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/breakdownschets.jpg" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu):
 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+<img src="images/breakdownschets_dynamisch1.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
 ### wellicht nog een dynamisch deel (bijv filter):
 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="images/breakdownschets_dynamisch2.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -83,11 +83,11 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 
 samen met je groepje opstellen
 
-| Rosella Moens                 | Ilias Ouyaliz                              | student 3    | student 4        |
-| ----------------------------- | ------------------------------------------ | ------------ | ---------------- |
-| sections zonder heading       | werken met mediaqueries                    | en ik dit    | en dan ik dat    |
-| h3 twee woorden appart stylen | online fonts en iconen gebruiken           | nog een punt | dit wil ik zeker |
-| crop images asymmetrisch      | flexbox met één kolom of meerdere beginnen | ...          | ...              |
+| Rosella Moens                 | Ilias Ouyaliz                              | Hong Zhou                             | Stefan Radouane                  |
+| ----------------------------- | ------------------------------------------ | ------------------------------------- | -------------------------------- |
+| sections zonder heading       | werken met mediaqueries                    | transparantie animatie in achtergrond | A centreren in li                |
+| h3 twee woorden appart stylen | online fonts en iconen gebruiken           | google maps op je website             | items aan dropdown toevoegen     |
+| crop images asymmetrisch      | flexbox met één kolom of meerdere beginnen | img grijswaarde maken op css          | Lijst onzichtbaar maken met knop |
 
 ### Verslag van meeting
 
