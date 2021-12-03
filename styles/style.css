@@ -3,3 +3,86 @@
   box-sizing:border-box;  
 }
 
+
+body{
+  background-color:#1b1d1f;
+  margin: 0px;
+}
+
+main{
+  color:#ffffff;
+  font-family: Roboto;
+  padding: 8px;
+ 
+}
+
+.logo_mobiel {
+  width: 277.77px;
+  height: 100px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #000000;
+  position: relative;
+  border-bottom: 0.5px solid #ffffff54;
+  padding: 25px 30px;
+  
+
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+ 
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #000000;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 75px;
+}
+
+main section article h3{
+  font-size: 50px;
+}
+
+main section article p{
+  font-size: 15px;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 570px) {
+	.wrapper {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+/* Style the active link (or home/logo) */
+/*.active {
+  background-color: #04AA6D;
+  color: white;
+} */
