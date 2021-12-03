@@ -116,17 +116,24 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+<img src="images/voortgang_week2_1.jpg">
+<img src="images/code_css_hamburgerrmenu.jpg">
+
+<p>Ik heb met behulp van W3schools gewerkt aan het hamburger menu, dit is het menu dat verschijnt op het mobiel formaat. Uiteindelijk wil ik nog met mediaqueries dit hamburgermenu omzetten in een normaal menu of een groter schermformaat. Ik moet ook nog uit zien te vinden hoe ik de layout en animatie van mijn hamburgermenu nog aanpas. Het proces verliep heel ergs soepel en ik vond het ook leuk om dit te implementeren in mijn website. </p>
+<img src="images/voortgang_week2_2.jpg">
+<img src="images/voortgang_week2_3.jpg">
+<img src="images/code_gridlayout.jpg">
+<p>Dit is het grid layout wat ik tot nu toe in mijn website heb verwerkt. Ik heb gebruikt gemaakt van CSS Grid in plaats van flexbox. Ik vond dit wel goed passen bij de website die ik wil maken en het werken ermee verloopt tot nu toe best goed. Ik heb zelf ook nog nooit met CSS GRid gewerkt en wel met Flexbox dus ik vond het ook interessant om iets nieuws te leren. Alles verliep goed, ik moet nog wel echt meer aan de layout en alle paddings, groottes van de kolommen en margins werken. De footer moet ik ook nog een slag in maken maar ik denk dat het wel goed moet komen. De pagina begint langzamerhand te lijken op de van esbcgame. </p>
 
 ### Agenda voor meeting
 
 samen met je groepje opstellen
 
-| Ilias Ouyaliz        | Rosella Moens                   | student 3    | student 4        |
-| -------------------- | ------------------------------- | ------------ | ---------------- |
-| Hamburgermenu layout | JS/CSS header kruisje/hamburger | en ik dit    | en dan ik dat    |
-| CSS grid grootte     | CSS tweede HTML pagina          | nog een punt | dit wil ik zeker |
-| Hoe exact namaken?   | Hoeveel media queries?          | ...          | ...              |
+| Ilias Ouyaliz        | Rosella Moens                   | Hong Zhou                             | Stefan Radouane                     |
+| -------------------- | ------------------------------- | ------------------------------------- | ----------------------------------- |
+| Hamburgermenu layout | JS/CSS header kruisje/hamburger | Mag een tweede css pagina?            | img met transition                  |
+| CSS grid grootte     | CSS tweede HTML pagina          | CSS background image cover centreren? | Meerdere elementen QuerySelectorAll |
+| Hoe exact namaken?   | Hoeveel media queries?          | Hover van afbeelding naar video       | Achtergrond een wazige kleur geven  |
 
 ### Verslag van meeting
 
