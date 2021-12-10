@@ -139,10 +139,10 @@ samen met je groepje opstellen
 
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Ik heb goede stappen gemaakt, ik moet nog wel wat content in vullen kwa linkjes en denken aan het toevoegen van alt in mijn images.
+- Ik moet werken aan de padding, margins en grootte van mijn kolommen.
+- Ik zal kijken of ik nog mijn hamburgermenu kan verbeteren kwa animaties en layout.
+- Het is tijd om mijn eerste pagina af te ronden en te beginnen met mijn tweede pagina.
 
 </details>
 
@@ -194,11 +194,11 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Rosella Moens           | Ilias Ouyaliz       | Hong Zhou                           | Stefan Radouane                  |
+| ----------------------- | ------------------- | ----------------------------------- | -------------------------------- |
+| JS animation            | Flexbox en css grid | Met Media queries img src aanpassen | Accordion maken                  |
+| Darkmode colors in root | logo in midden      | 9 images toevoegen met 1 button     | SVG stroke uitlijnen naar binnen |
+| Footer flexen?          | images width        | hamburger menu animatie             | Pagina's overeenkomen            |
 
 ### Verslag van meeting
 
