@@ -4,6 +4,7 @@
 }
 
 
+
 body{
   background-color:#1b1d1f;
   margin: 0px;
@@ -22,15 +23,20 @@ main{
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+  width: 528px;
+  height: 260px;
+  object-fit: cover;
+}
+/* Verbergt het menu en wordt pas weergegeven als er op de hamburger wordt geklikt */
+#myLinks{
+  display: none;
 }
 
 
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
-  background-color: #000000;
+  background-color: #141618;
   position: relative;
   border-bottom: 0.5px solid #ffffff54;
   padding: 25px 30px;
@@ -38,36 +44,122 @@ img {
 
 }
 
-/* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
-  display: none;
+/* styling van linkjes in de header */
+.topnav section a {
+  font-size: 25px;
+  font-family: Poppins;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
 }
 
-/* Style navigation menu links */
-.topnav a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
- 
-}
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: #000000;
+  background: #141618;
   display: block;
   position: absolute;
   right: 0;
   top: 75px;
+  font-size: 25px;
+  padding: 5px 14px 16px;
+  color: white;
 }
 
+/* flex styling van lijst met menu items */
+.topnav section ul:first-of-type{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  list-style-type: none;
+
+}
+
+
+/* flex styling van lijst met social icons */
+.topnav section ul:nth-of-type(2) {
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  
+  
+  
+}
+
+/* hover kleur voor alle linkjes in de header */
+.topnav section ul a:hover {
+  color: #6c6d6e;
+  
+
+}
+
+/* active kleur voor link met deze class */
+.active {
+  color: #6c6d6e !important;
+}
+
+
+
+@media screen and (min-width: 960px) { 
+  #myLinks {
+    display: flex ;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center ;
+    border-top: 0.5px solid #ffffff54;
+  }
+
+  .topnav ul {
+    flex-direction: row;
+  }
+}
+
+.logo_groot {
+  display: none;
+}
+
+@media screen and (min-width: 960px) { .topnav .logo_groot{
+  display: flex ;
+  flex-direction: row;
+  align-items: center;
+  width: 414px;
+  height: 150px;
+  
+  
+  
+}
+
+}
+
+
+
+@media screen and (min-width: 960px) { .logo_mobiel, .topnav .fa-bars{
+  display: none;
+  
+  
+}
+
+}
+
+
+main section article {
+  padding-left: 30px;
+  padding-bottom: 50px;
+  padding-right: 75px;
+}
 main section article h3{
-  font-size: 50px;
+  font-size: 33.3333px;
 }
 
 main section article p{
   font-size: 15px;
+  line-height: 1.8em;
 }
 
 .wrapper{
@@ -78,11 +170,86 @@ main section article p{
 @media screen and (min-width: 570px) {
 	.wrapper {
 		grid-template-columns: 1fr 1fr 1fr;
+    
 	}
 }
+
+@media screen and (min-width: 570px) {
+	footer nav {
+		display: flex;
+    align-items: flex-start;
+    
+    
+	}
+}
+
+@media screen and (min-width: 570px) {
+	footer nav section {
+		
+    padding-right: 50px;
+   
+    
+	}
+}
+
+@media screen and (min-width: 570px) {
+	footer nav section ul li a {
+    padding: 0px !important;
+   
+    
+	}
+}
+
+footer {
+  background-color: #141618;
+  padding: 50px;
+}
+
+footer nav section h3,ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+footer nav section h3 {
+  font-family: Roboto;
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+
+footer nav section hr {
+  width: 95px;
+  border: 1px solid #006cff;
+  margin-bottom: 30px;
+}
+footer nav section ul {
+  list-style-type: none;
+}
+footer nav section ul li a {
+  font-family: Roboto;
+  font-size: 14px;
+  text-decoration: none;
+  padding-right: 40px;
+  color: #ffffff;
+  line-height: 2.2em;
+}
+
+.fa-arrow-right{
+  font-size: 9px;
+  padding-right: 20px;
+ 
+}
+
+footer nav section:nth-of-type(3) {
+  display: none;
+}
+
+
+
+
 
 /* Style the active link (or home/logo) */
 /*.active {
   background-color: #04AA6D;
-  color: white;
-} */
+  color: white; }*/
