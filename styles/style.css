@@ -13,7 +13,7 @@ body{
 main{
   color:#ffffff;
   font-family: Roboto;
-  padding: 8px;
+  
  
 }
 
@@ -23,7 +23,7 @@ main{
 }
 
 img {
-  width: 528px;
+  width: 100vw;
   height: 260px;
   object-fit: cover;
 }
@@ -69,6 +69,8 @@ img {
   color: white;
 }
 
+
+@media screen and (max-width: 959px) {
 /* flex styling van lijst met menu items */
 .topnav section ul:first-of-type{
   display: flex;
@@ -92,6 +94,8 @@ img {
   
 }
 
+}
+
 /* hover kleur voor alle linkjes in de header */
 .topnav section ul a:hover {
   color: #6c6d6e;
@@ -104,48 +108,64 @@ img {
   color: #6c6d6e !important;
 }
 
-
+.topnav .logo_groot {
+  display: none;
+}
 
 @media screen and (min-width: 960px) { 
-  #myLinks {
+ .logo {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+ }
+ 
+ 
+  .topnav #myLinks {
     display: flex ;
     flex-direction: row;
     align-items: center;
     justify-content:center ;
     border-top: 0.5px solid #ffffff54;
+    width: 100vw;
+   
+    
   }
-
+  
   .topnav ul {
     flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    margin-bottom: -10px;
+    
+    
+    
   }
-}
 
-.logo_groot {
-  display: none;
-}
+ .topnav li a {
+    font-size: 12px;
+    font-family: Poppins;
+    padding: 0px 13px;
+  }
 
-@media screen and (min-width: 960px) { .topnav .logo_groot{
+  .topnav li a i {
+    font-size: 18px;
+  }
+  
+  .topnav .logo_groot {
   display: flex ;
-  flex-direction: row;
-  align-items: center;
   width: 414px;
   height: 150px;
-  
-  
-  
-}
+  }
 
-}
+  .logo_mobiel, .topnav .fa-bars{
+    display: none;
+    
+    
+  }
 
-
-
-@media screen and (min-width: 960px) { .logo_mobiel, .topnav .fa-bars{
-  display: none;
-  
   
 }
 
-}
 
 
 main section article {
@@ -167,11 +187,18 @@ main section article p{
   grid-template-columns: 1fr;
 }
 
+
+
 @media screen and (min-width: 570px) {
 	.wrapper {
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr ;
     
 	}
+
+  img {
+    width: 100%;
+    height: 260px;
+  }
 }
 
 @media screen and (min-width: 570px) {
@@ -198,6 +225,19 @@ main section article p{
    
     
 	}
+}
+
+@media screen and (min-width: 960px) {
+	.wrapper {
+		grid-template-columns: 1fr 1fr 1fr;
+  
+    
+	}
+
+  img {
+    width: 100%;
+    height: 528px;
+  }
 }
 
 footer {
@@ -253,3 +293,54 @@ footer nav section:nth-of-type(3) {
 /*.active {
   background-color: #04AA6D;
   color: white; }*/
+
+
+  .latest {
+    background-color:#1b1d1f;
+    margin: 0px;
+  }
+
+  .wrapperlatest {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 30px;
+  
+  }
+
+  .latest article{
+    padding: 10px;
+ 
+  }
+
+  .latest article img {
+   
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+   
+    
+    
+  }
+
+  .latest article h3 {
+    font-family: Poppins;
+    font-size: 17px;
+
+    
+    
+  }
+
+  .latest article button {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    padding: 13px 31px;
+    color: #303133;
+    text-transform: uppercase;
+    border-radius: 10em;
+    cursor: pointer;
+    outline: none;
+    transform: scale(0.8);
+  }
