@@ -194,11 +194,11 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 
 samen met je groepje opstellen
 
-| Rosella Moens           | Ilias Ouyaliz       | Hong Zhou                           | Stefan Radouane                  |
-| ----------------------- | ------------------- | ----------------------------------- | -------------------------------- |
-| JS animation            | Flexbox en css grid | Met Media queries img src aanpassen | Accordion maken                  |
-| Darkmode colors in root | logo in midden      | 9 images toevoegen met 1 button     | SVG stroke uitlijnen naar binnen |
-| Footer flexen?          | images width        | hamburger menu animatie             | Pagina's overeenkomen            |
+| student 1      | student 2          | student 3    | student 4        |
+| -------------- | ------------------ | ------------ | ---------------- |
+| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+| ...            | ...                | ...          | ...              |
 
 ### Verslag van meeting
 
