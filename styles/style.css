@@ -1,106 +1,91 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
-
-
-body{
-  background-color:#1b1d1f;
-  margin: 0px;
+body {
+  background-color: #1b1d1f;
+  margin: 0em;
 }
 
-main{
-  color:#ffffff;
+main {
+  color: #ffffff;
   font-family: Roboto;
-  
- 
 }
 
 .logo_mobiel {
-  width: 277.77px;
-  height: 100px;
+  width: 17.36em;
+  height: 6.25em;
 }
 
 img {
   width: 100vw;
-  height: 260px;
+  height: 16.25em;
   object-fit: cover;
 }
 /* Verbergt het menu en wordt pas weergegeven als er op de hamburger wordt geklikt */
-#myLinks{
+#myLinks {
   display: none;
 }
 
-
 /* Style the navigation menu */
-.topnav {
+header nav {
   overflow: hidden;
   background-color: #141618;
   position: relative;
   border-bottom: 0.5px solid #ffffff54;
-  padding: 25px 30px;
-  
-
+  padding: 1.56em 1.87em;
 }
 
 /* styling van linkjes in de header */
-.topnav section a {
-  font-size: 25px;
+header nav section a {
+  font-size: 1.56em;
   font-family: Poppins;
   font-weight: 600;
   text-transform: uppercase;
   display: block;
   text-decoration: none;
   color: white;
-  padding: 5px;
+  padding: 0.3em;
 }
 
-
 /* Style the hamburger menu */
-.topnav a.icon {
+header nav a.icon {
   background: #141618;
   display: block;
   position: absolute;
   right: 0;
-  top: 75px;
-  font-size: 25px;
-  padding: 5px 14px 16px;
+  top: 3em;
+  font-size: 1.56em;
+  padding: 0.3em 0.87em 1em;
   color: white;
 }
 
-
 @media screen and (max-width: 959px) {
-/* flex styling van lijst met menu items */
-.topnav section ul:first-of-type{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  list-style-type: none;
+  /* flex styling van lijst met menu items */
+  header nav section ul:first-of-type {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+  }
 
-}
-
-
-/* flex styling van lijst met social icons */
-.topnav section ul:nth-of-type(2) {
-  display: flex;
-  font-size: 18px;
-  align-items: center;
-  flex-direction: row;
-  justify-content: center;
-  list-style-type: none;
-  
-  
-  
-}
-
+  /* flex styling van lijst met social icons */
+  header nav section ul:nth-of-type(2) {
+    display: flex;
+    font-size: 1.12em;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+  }
 }
 
 /* hover kleur voor alle linkjes in de header */
-.topnav section ul a:hover {
+header nav section ul a:hover {
   color: #6c6d6e;
-  
-
 }
 
 /* active kleur voor link met deze class */
@@ -108,239 +93,395 @@ img {
   color: #6c6d6e !important;
 }
 
-.topnav .logo_groot {
+/* Standaard onzichtbaar logo groot */
+header nav .logo_groot {
   display: none;
 }
 
-@media screen and (min-width: 960px) { 
- .logo {
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
- }
- 
- 
-  .topnav #myLinks {
-    display: flex ;
-    flex-direction: row;
-    align-items: center;
-    justify-content:center ;
-    border-top: 0.5px solid #ffffff54;
-    width: 100vw;
-   
-    
-  }
-  
-  .topnav ul {
-    flex-direction: row;
-    list-style-type: none;
-    align-items: center;
-    margin-bottom: -10px;
-    
-    
-    
-  }
-
- .topnav li a {
-    font-size: 12px;
-    font-family: Poppins;
-    padding: 0px 13px;
-  }
-
-  .topnav li a i {
-    font-size: 18px;
-  }
-  
-  .topnav .logo_groot {
-  display: flex ;
-  width: 414px;
-  height: 150px;
-  }
-
-  .logo_mobiel, .topnav .fa-bars{
-    display: none;
-    
-    
-  }
-
-  
-}
-
-
-
+/* Standaard padding artikelen */
 main section article {
-  padding-left: 30px;
-  padding-bottom: 50px;
-  padding-right: 75px;
+  padding-left: 1.87em;
+  padding-bottom: 3.1em;
+  padding-right: 4.68em;
 }
-main section article h3{
-  font-size: 33.3333px;
+/* Grootte artikeltitels */
+main section article h3 {
+  font-size: 2.08em;
 }
 
-main section article p{
-  font-size: 15px;
+/* Grootte artikeltekst */
+main section article p {
+  font-size: 0.93em;
   line-height: 1.8em;
 }
 
-.wrapper{
+/* standaard 1 kolomstructuur */
+.wrapper {
   display: grid;
   grid-template-columns: 1fr;
 }
 
+/* media query tweekolomstructuur */
+@media screen and (min-width: 759px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
 
-
-@media screen and (min-width: 570px) {
-	.wrapper {
-		grid-template-columns: 1fr 1fr ;
-    
-	}
-
+  /* aangepaste grootte afbeeldingen tweekolomstructuur */
   img {
     width: 100%;
-    height: 260px;
+    height: 21.87em;
   }
 }
 
-@media screen and (min-width: 570px) {
-	footer nav {
-		display: flex;
-    align-items: flex-start;
-    
-    
-	}
+/* derde kolom onzichtbaar standaard */
+footer nav section:nth-of-type(3) {
+  display: none;
 }
 
-@media screen and (min-width: 570px) {
-	footer nav section {
-		
-    padding-right: 50px;
-   
-    
-	}
-}
-
-@media screen and (min-width: 570px) {
-	footer nav section ul li a {
-    padding: 0px !important;
-   
-    
-	}
-}
-
+/* media query flexbox layout */
 @media screen and (min-width: 960px) {
-	.wrapper {
-		grid-template-columns: 1fr 1fr 1fr;
-  
-    
-	}
+  .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 
+  /* Flexbox navigatie menu en stylingen */
+  header nav #myLinks {
+    display: flex !important ;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-top: 0.5px solid #ffffff54;
+    width: 100vw;
+  }
+
+  header nav ul {
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    margin-bottom: -0.62em;
+  }
+
+  header nav li a {
+    font-size: 0.9em;
+    font-family: Poppins;
+    padding: 0em 0.81em;
+  }
+
+  header nav li a i {
+    font-size: 1.4em;
+  }
+
+  /* weergave logo groot */
+  header nav .logo_groot {
+    display: flex;
+    width: 25.87em;
+    height: 9.37em;
+  }
+
+  /* hamburgermenu icoon onzichtbaar */
+  .logo_mobiel,
+  header nav .fa-bars {
+    display: none;
+  }
+
+  /* driekolomstructuur */
+  .wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /* grootte afbeeldingen driekolomstrucuur */
   img {
     width: 100%;
-    height: 528px;
+    height: 33em;
+  }
+
+  /* Flexbox layout footer */
+  footer nav {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 13em;
+  }
+
+  /* Derde kolom footer wordt hier zichtbaar gemaakt */
+  footer nav section:nth-of-type(3) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* maakt footer relative zodat elementen gepositioneerd kunnen worden */
+  footer {
+    position: relative;
+  }
+
+  /* Flexbox layout artikelen footer */
+  footer article:first-of-type {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    left: 0.62em;
+    position: absolute;
+  }
+
+  footer article:nth-of-type(2) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0.62em;
+    top: 25em;
   }
 }
 
+/* Footer kleur */
 footer {
   background-color: #141618;
-  padding: 50px;
+  padding: 3.12em;
 }
 
-footer nav section h3,ul {
+/* Footer flex layout navigatie */
+footer nav section h3,
+ul {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
+/* Footer titels grootte en font */
 footer nav section h3 {
   font-family: Roboto;
-  font-size: 17px;
-  padding-bottom: 10px;
+  font-size: 1.06em;
+  padding-bottom: 0.62em;
 }
 
+footer article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer article p {
+  font-family: Roboto;
+  font-size: 0.81em;
+  text-decoration: none;
+  color: #ffffff;
+  padding-right: 0.62em;
+}
+
+/* Styling link teksten */
+footer article a {
+  font-family: Roboto;
+  font-size: 0.81em;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer article:nth-of-type(2) ul {
+  display: flex;
+  font-size: 1.12em;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+}
+
+footer article:nth-of-type(2) li {
+  padding: 0.62em;
+  font-size: 1.12em;
+}
+
+footer article:nth-of-type(2) i {
+  font-size: 1.12em;
+}
+
+/* Footer blauwe lijnen */
 footer nav section hr {
-  width: 95px;
+  width: 5.93em;
   border: 1px solid #006cff;
-  margin-bottom: 30px;
+  margin-bottom: 1.87em;
 }
 footer nav section ul {
   list-style-type: none;
 }
 footer nav section ul li a {
   font-family: Roboto;
-  font-size: 14px;
+  font-size: 0.87em;
   text-decoration: none;
-  padding-right: 40px;
+  padding-right: 2.5em;
   color: #ffffff;
   line-height: 2.2em;
 }
 
-.fa-arrow-right{
-  font-size: 9px;
-  padding-right: 20px;
- 
+/* Footer pijl iconen ingeladen vanuit fontawesome */
+.fa-arrow-right {
+  font-size: 0.56em;
+  padding-right: 1.25em;
 }
 
-footer nav section:nth-of-type(3) {
-  display: none;
-}
-
-
-
-
-
-/* Style the active link (or home/logo) */
-/*.active {
-  background-color: #04AA6D;
-  color: white; }*/
-
-
-  .latest {
-    background-color:#1b1d1f;
-    margin: 0px;
+/* Media query flexbox layout */
+@media screen and (min-width: 570px) {
+  footer nav {
+    display: flex;
+    align-items: flex-start;
   }
 
+  footer nav section {
+    padding-right: 3.12em;
+  }
+
+  footer nav section ul li a {
+    padding: 0em;
+  }
+}
+
+/* Class voor body tweede pagina en toevoeging achtergrondkleur */
+.latest {
+  background-color: #1b1d1f;
+  margin: 0em;
+}
+
+/* 1 kolomstructuur */
+.wrapperlatest {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 1.87em;
+}
+
+/* Artikel relatieve waarde */
+.wrapperlatest article {
+  position: relative;
+  padding: 0.93em;
+}
+
+/* Styling afbeeldingen */
+.latest article img {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  max-width: 100%;
+  height: auto;
+  opacity: 0.2;
+}
+
+/* Hover opactity effect thumbnails */
+.latest article img:hover {
+  opacity: 1;
+}
+
+/* Titels thumbnail positie en styling */
+.latest article h3 {
+  font-family: Poppins;
+  font-size: 1.06em;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  right: 10%;
+  bottom: 60%;
+  text-align: center;
+  padding: 0.62em;
+  padding-bottom: 1.87em;
+}
+
+/* Thumbnail buttons styling en positie */
+.latest article button {
+  font-family: Poppins;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  padding: 0.81em 1.93em;
+  color: #303133;
+  text-transform: uppercase;
+  border-radius: 10em;
+  cursor: pointer;
+  outline: none;
+  transform: scale(0.8);
+  position: absolute;
+  top: 50%;
+  right: 28%;
+}
+
+/* Media query tweekolomstructuur */
+@media screen and (min-width: 493px) {
   .wrapperlatest {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-top: 30px;
-  
+    padding-top: 1.87em;
   }
 
-  .latest article{
-    padding: 10px;
- 
+  /* posititie button op dit formaat */
+  .latest article button {
+    top: 60%;
+    right: 23%;
   }
+}
 
-  .latest article img {
-   
-    border: 1px solid #ffffff;
-    border-radius: 5px;
-    max-width: 100%;
-    height: auto;
-   
-    
-    
-  }
-
+/* Media query */
+@media screen and (min-width: 577px) {
+  /* Titel styling en positie */
   .latest article h3 {
     font-family: Poppins;
-    font-size: 17px;
-
-    
-    
+    font-size: 1.25em;
+    position: absolute;
+    top: 0.62em;
+    text-align: center;
   }
 
+  /* Button styling en positie */
   .latest article button {
     font-family: Poppins;
-    font-size: 12px;
+    font-size: 0.75em;
     font-weight: 600;
     letter-spacing: 0.1em;
-    padding: 13px 31px;
+    padding: 0.81em 1.93em;
     color: #303133;
     text-transform: uppercase;
     border-radius: 10em;
     cursor: pointer;
     outline: none;
-    transform: scale(0.8);
+    transform: scale(1);
+    right: 26%;
   }
+}
+
+/* Media query met positie button */
+@media screen and (min-width: 750px) {
+  .latest article button {
+    right: 30%;
+  }
+
+  .latest article h3 {
+    font-size: 1.81em;
+  }
+}
+
+/* Media query met positie button */
+@media screen and (min-width: 1000px) {
+  .latest article button {
+    right: 34%;
+  }
+
+  .latest article h3 {
+    font-size: 1.81em;
+  }
+}
+
+/* Media query met 4 kolomstructuur */
+@media screen and (min-width: 1213px) {
+  .wrapperlatest {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 1.87em;
+  }
+
+  /* button positie 4 kolom formaat */
+  .latest article button {
+    right: 33%;
+  }
+
+  .latest article h3 {
+    font-size: 1.5em;
+  }
+}

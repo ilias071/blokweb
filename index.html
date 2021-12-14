@@ -1,259 +1,288 @@
-<!doctype html>
-<html lang="nl">
-	
-<head>
-	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Howdy FED2122</title>
-	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-	<!-- kit voor het inladen van de social media iconen-->
-	<script src="https://kit.fontawesome.com/bbb1811892.js" crossorigin="anonymous"></script>
-	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Ilias" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ESBC Game Features | eSports Boxing Club Features</title>
+    <link href="styles/style.css" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- kit voor het inladen van de social media iconen-->
+    <script
+      src="https://kit.fontawesome.com/bbb1811892.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-<body>
-	
-<header>
+  <body>
+    <header>
+      <!-- Dit is de bron voor het hamburgermenu  https://www.w3schools.com/howto/howto_js_mobile_navbar.asp-->
 
-<!-- Dit is de bron voor het hamburgermenu -- https://www.w3schools.com/howto/howto_js_mobile_navbar.asp-->
+      <!-- Top Navigation Menu met het logo voor zowel mobiel als groot formaat -->
+      <nav>
+        <div class="logo">
+          <a href="#home" class="active"
+            ><img
+              src="images/esbc_logo_mobiel.png"
+              class="logo_mobiel"
+              alt="logo mobiel formaat"
+          /></a>
+          <a href="#home" class="active"
+            ><img
+              src="images/esbc_logo.png"
+              class="logo_groot"
+              alt="logo groot formaat"
+          /></a>
+        </div>
+        <!-- Navigation links (hidden by default) -->
 
-<!-- Top Navigation Menu met het logo voor zowel mobiel als groot formaat -->
-<nav class="topnav">
-	<div class="logo">
-  <a href="#home" class="active"><img src="images/esbc_logo_mobiel.png" class="logo_mobiel"></a>
-  <a href="#home" class="active"><img src="images/esbc_logo.png" class="logo_groot"></a>
-</div>
-  <!-- Navigation links (hidden by default) -->	
+        <section id="myLinks">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#roster">ROSTER</a></li>
+            <li><a href="index.html" class="active">GAME FEATURES</a></li>
+            <li><a href="#faq">ESBC FAQ</a></li>
+            <li><a href="latest.html">LATEST</a></li>
+          </ul>
 
-  <section id="myLinks">
-	<ul>
-    <li><a href="#home">Home</a></li>
-	<li><a href="#roster">ROSTER</a></li>
-    <li><a href="#features" class="active">GAME FEATURES</a></li>	
-    <li><a href="#faq">ESBC FAQ</a></li>
-	<li><a href="latest.html">LATEST</a></li>
-</ul>
+          <ul>
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </section>
 
-<ul>
-	<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-	<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-	<li><a href="#"><i class="fab fa-youtube"></i></a></li>
-	<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-	</ul>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
+    </header>
 
-  </section>
+    <!-- De main content-->
+    <main>
+      <!-- Dit is de section met de content van de pagina-->
+      <section class="wrapper">
+        <!-- Artikel met een titelheader en tekst-->
+        <article>
+          <h3>NEXT-GEN FOOTWORK</h3>
+          <p>
+            Next-Gen Footwork revolutionising movement – with research and input
+            from World Champions to create the most realistic mannerisms and
+            movement.
+          </p>
+        </article>
 
-  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
+        <!-- Content afbeelding-->
+        <img src="images/image1.jpg" alt="twee boksers in actie" />
 
-</nav>
+        <!-- Artikel met een titelheader en tekst-->
+        <article>
+          <h3>VENUES</h3>
+          <p>
+            Realistic venues from Gyms and Arenas to outdoor stages from around
+            the world.
+          </p>
+        </article>
 
-</header>	
+        <!-- Content afbeelding-->
+        <img src="images/image2.jpg" alt="foto van bokser in de ring" />
 
+        <!-- Artikel met een titelheader en tekst-->
+        <article>
+          <h3>VISUALS</h3>
+          <p>
+            High quality models – Scanned and sculpted by the leading Scan
+            Studio – Ten24
+          </p>
+        </article>
 
-<!-- De main content-->
-<main>
+        <!-- Content afbeelding-->
+        <img src="images/image3.png" alt="boksers starten gevecht" />
 
-	<!-- Dit is de section met de content van de pagina-->
-	<section class="wrapper">
+        <!-- Artikel met een titelheader en tekst-->
+        <article>
+          <h3>COMMENTARY</h3>
+          <p>
+            A full fight team featuring Paul Dempsey from BT Sports, Johnny
+            Nelson from Sky Sports, and Todd Grisham from DAZN.
+          </p>
+        </article>
 
-	<!-- Artikel met een titelheader en tekst-->
-	<article>
-		<h3>NEXT-GEN FOOTWORK</h3>
-		<p>Next-Gen Footwork revolutionising movement – with research and input from World Champions to create the most realistic mannerisms and movement.</p>
-		
-	</article>
+        <!-- Content afbeelding-->
+        <img src="images/image4.png" alt="boksers gescheiden door scheids" />
 
-	<!-- Content afbeelding-->
-	<img src="images/image1.jpg">
+        <!-- Artikel met een titelheader en tekst-->
+        <article>
+          <h3>CUSTOMISATION</h3>
+          <p>
+            A fully customisable career mode – Create your own fighter – Judges
+            – Trainers – Cut-men – Promotors.
+          </p>
+        </article>
 
-	<!-- Artikel met een titelheader en tekst-->
-	<article>
-		<h3>VENUES</h3>
-		<p>Realistic venues from Gyms and Arenas to outdoor stages from around the world.</p>
-		
-	</article>
+        <!-- Content afbeelding-->
+        <img src="images/image5.jpg" alt="foto van linkerhoek die raak is" />
 
-	<!-- Content afbeelding-->
-	<img src="images/image2.jpg">
+        <!-- Artikel met een titelheader en tekst-->
+        <article>
+          <h3>BOXING ATTIRE</h3>
+          <p>
+            Featuring officially licensed boxing gear. Upgrade your gloves,
+            shorts and boots.
+          </p>
+        </article>
 
-	<!-- Artikel met een titelheader en tekst-->
-	<article>
-		<h3>VISUALS</h3>
-		<p>High quality models – Scanned and sculpted by the leading Scan Studio – Ten24</p>
-		
-	</article>
+        <!-- Content afbeelding-->
+        <img src="images/image6.jpg" alt="closeup van Conor Benn Jr" />
 
-	<!-- Content afbeelding-->
-	<img src="images/image3.png">
+        <!-- Artikel met een titelheader en tekst-->
+        <article>
+          <h3>REALISM</h3>
+          <p>
+            Manage your fighter’s weight and injuries. Will you rest and let any
+            negative effects heal? Or take a high risk title-shot at short
+            notice?
+          </p>
+        </article>
 
-	<!-- Artikel met een titelheader en tekst-->
-	<article>
-		<h3>COMMENTARY</h3>
-		<p>A full fight team featuring Paul Dempsey from BT Sports, Johnny Nelson from Sky Sports, and Todd Grisham from DAZN.</p>
-		
-	</article>
+        <!-- Content afbeelding-->
+        <img src="images/image7.jpg" alt="closeup van gezicht bokser" />
 
-	<!-- Content afbeelding-->
-	<img src="images/image4.png">
+        <!-- Artikel met een titelheader en tekst-->
+        <article>
+          <h3>SKILL TRAITS</h3>
+          <p>
+            Unlock certain moves and characteristics as your fighter matures,
+            switch gyms to learn new move-sets.
+          </p>
+        </article>
 
-	<!-- Artikel met een titelheader en tekst-->
-	<article>
-		<h3>CUSTOMISATION</h3>
-		<p>A fully customisable career mode – Create your own fighter – Judges – Trainers – Cut-men – Promotors.</p>
-		
-	</article>
+        <!-- Content afbeelding-->
+        <img src="images/image8.jpg" alt="bokser die poseert" />
 
-	<!-- Content afbeelding-->
-	<img src="images/image5.jpg">
+        <!-- Artikel met een titelheader en tekst-->
+        <article>
+          <h3>RETIREMENT SYSTEM</h3>
+          <p>
+            Did you retire early due to the wars you’ve been in? Or have a
+            prolonged career with smart fighting? Or will you decide to make a
+            comeback?
+          </p>
+        </article>
 
-	<!-- Artikel met een titelheader en tekst-->
-	<article>
-		<h3>BOXING ATTIRE</h3>
-		<p>Featuring officially licensed boxing gear. Upgrade your gloves, shorts and boots.</p>
-		
-	</article>
+        <!-- Content afbeelding-->
+        <img src="images/image9.png" alt="graphis render van meneer Hall" />
 
-	<!-- Content afbeelding-->
-	<img src="images/image6.jpg">
+        <!-- Artikel met een titelheader en tekst-->
+        <article>
+          <h3>ESBC TOURNAMENT</h3>
+          <p>
+            Annual tournament featuring the eWBC belt – More details to follow
+          </p>
+        </article>
 
-	<!-- Artikel met een titelheader en tekst-->
-	<article>
-		<h3>REALISM</h3>
-		<p>Manage your fighter’s weight and injuries. Will you rest and let any negative effects heal? Or take a high risk title-shot at short notice?</p>
-		
-	</article>
+        <!-- Content afbeelding-->
+        <img src="images/image10.jpg" alt="closeup gezicht Conor Benn jr" />
 
-	<!-- Content afbeelding-->
-	<img src="images/image7.jpg">
+        <!-- Artikel met een titelheader en tekst-->
+        <article>
+          <h3>FEINT SYSTEM</h3>
+          <p>
+            ESBC features the most advanced feint-system – try and throw your
+            opponent off-guard.
+          </p>
+        </article>
+      </section>
 
-	<!-- Artikel met een titelheader en tekst-->
-	<article>
-		<h3>SKILL TRAITS</h3>
-		<p>Unlock certain moves and characteristics as your fighter matures, switch gyms to learn new move-sets.</p>
-		
-	</article>
+      <!-- Het begin van de footer-->
+      <footer>
+        <nav>
+          <!-- drie kolommen met footer navigatie-->
+          <section>
+            <h3>INFORMATION</h3>
+            <hr />
+            <ul>
+              <li>
+                <i class="fas fa-arrow-right"></i>
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li>
+                <i class="fas fa-arrow-right"></i>
+                <a href="#">Contact Us</a>
+              </li>
+            </ul>
+          </section>
 
-	<!-- Content afbeelding-->
-	<img src="images/image8.jpg">
+          <section>
+            <h3>ABOUT ESBC</h3>
+            <hr />
+            <ul>
+              <li>
+                <i class="fas fa-arrow-right"></i>
+                <a href="#">About ESBC</a>
+              </li>
+              <li>
+                <i class="fas fa-arrow-right"></i>
+                <a href="#">ESBC Features</a>
+              </li>
+            </ul>
+          </section>
 
-	<!-- Artikel met een titelheader en tekst-->
-	<article>
-		<h3>RETIREMENT SYSTEM</h3>
-		<p>Did you retire early due to the wars you’ve been in? Or have a prolonged career with smart fighting? Or will you decide to make a comeback?</p>
-		
-	</article>
+          <section>
+            <h3>GET IN TOUCH</h3>
+            <hr />
+            <ul>
+              <li>
+                <a href="#">social@esportsboxingclub.com</a>
+              </li>
+            </ul>
+          </section>
+        </nav>
 
-	<!-- Content afbeelding-->
-	<img src="images/image9.png">
+        <!-- Copyright tekst-->
+        <article>
+          <p>© 2020 Copyright Steel City Interactive Site by</p>
+          <a href="https://www.seoleaders.co.uk/">SEO Leaders</a>
+        </article>
 
-	<!-- Artikel met een titelheader en tekst-->
-	<article>
-		<h3>ESBC TOURNAMENT</h3>
-		<p>Annual tournament featuring the eWBC belt – More details to follow</p>
-		
-	</article>
-
-	<!-- Content afbeelding-->
-	<img src="images/image10.jpg">
-
-	<!-- Artikel met een titelheader en tekst-->
-	<article>
-		<h3>FEINT SYSTEM</h3>
-		<p>ESBC features the most advanced feint-system – try and throw your opponent off-guard.</p>
-	</article>
-
-
-</section>
-
-<!-- Het begin van de footer-->
-	<footer>
-
-	   <nav>
-		   <section>
-			<h3>INFORMATION</h3>
-			<hr></hr>
-			<ul>
-				<li>
-					<i class="fas fa-arrow-right"></i>
-					<a href="#">Privacy Policy</a>
-				</li>
-				<li>
-					<i class="fas fa-arrow-right"></i>
-					<a href="#">Contact Us</a>
-				</li>
-			</ul>
-
-		</section>
-
-		<section>
-			<h3>ABOUT ESBC</h3>
-			<hr></hr>
-			<ul>
-				<li>
-					<i class="fas fa-arrow-right"></i>
-					<a href="#">About ESBC</a>
-				</li>
-				<li>
-					<i class="fas fa-arrow-right"></i>
-					<a href="#">ESBC Features</a>
-				</li>
-			</ul>
-		</section>
-
-		<section>
-			<h3>GET IN TOUCH</h3>
-			<hr></hr>
-			<ul>
-				<li>
-					<a href="#">social@esportsboxingclub.com</a>
-				</li>
-			</ul>
-		</section>
-
-		</nav>
-
-		
-			<p>© 2020 Copyright Steel City Interactive      Site by
-				<a href="#">SEO Leaders</a>
-			</p>
-
-			<a>
-				<i></i>
-			</a>
-
-			<a>
-				<i></i>
-			</a>
-			<a>
-				<i></i>
-			</a>
-
-			<a>
-				<i></i>
-			</a>
-
-	</footer>
-
-
-
-
-
-
-
-
-
-
-
-
-</main>
-	<script src="scripts/script.js"></script>
-</body>
-	
+        <!-- Social media iconen verkregen via fontawesome-->
+        <article>
+          <ul>
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </article>
+      </footer>
+    </main>
+    <script src="scripts/script.js"></script>
+  </body>
 </html>

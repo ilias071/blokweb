@@ -1,249 +1,329 @@
-<!doctype html>
-<html lang="nl">
-	
-<head>
-	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Howdy FED2122</title>
-	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-	<!-- kit voor het inladen van de social media iconen-->
-	<script src="https://kit.fontawesome.com/bbb1811892.js" crossorigin="anonymous"></script>
-	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Ilias" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ESBC Game Features | eSports Boxing Club Features</title>
+    <link href="styles/style.css" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- kit voor het inladen van de social media iconen-->
+    <script
+      src="https://kit.fontawesome.com/bbb1811892.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-<body class="latest">
-	
-<header>
+  <!-- body class voor de vormgeving tweede pagina-->
+  <body class="latest">
+    <header>
+      <!-- Dit is de bron voor het hamburgermenu  https://www.w3schools.com/howto/howto_js_mobile_navbar.asp-->
 
-<!-- Dit is de bron voor het hamburgermenu -- https://www.w3schools.com/howto/howto_js_mobile_navbar.asp-->
+      <!-- Top Navigation Menu met het logo voor zowel mobiel als groot formaat -->
+      <nav>
+        <div class="logo">
+          <a href="#home" class="active"
+            ><img
+              src="images/esbc_logo_mobiel.png"
+              class="logo_mobiel"
+              alt="logo mobiel formaat"
+          /></a>
+          <a href="#home" class="active"
+            ><img
+              src="images/esbc_logo.png"
+              class="logo_groot"
+              alt="logo groot formaat"
+          /></a>
+        </div>
+        <!-- Navigation links (hidden by default) -->
 
-<!-- Top Navigation Menu met het logo voor zowel mobiel als groot formaat -->
-<nav class="topnav">
-  <a href="#home" class="active"><img src="images/esbc_logo_mobiel.png" class="logo_mobiel"></a>
-  <a href="#home" class="active"><img src="images/esbc_logo.png" class="logo_groot"></a>
+        <section id="myLinks">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#roster">ROSTER</a></li>
+            <li><a href="index.html" class="active">GAME FEATURES</a></li>
+            <li><a href="#faq">ESBC FAQ</a></li>
+            <li><a href="latest.html">LATEST</a></li>
+          </ul>
 
-  <!-- Navigation links (hidden by default) -->	
+          <ul>
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </section>
 
-  <section id="myLinks">
-	<ul>
-    <li><a href="#home">Home</a></li>
-	<li><a href="#roster">ROSTER</a></li>
-    <li><a href="#features" class="active">GAME FEATURES</a></li>	
-    <li><a href="#faq">ESBC FAQ</a></li>
-	<li><a href="#latest">LATEST</a></li>
-</ul>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
+    </header>
 
-<ul>
-	<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-	<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-	<li><a href="#"><i class="fab fa-youtube"></i></a></li>
-	<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-	</ul>
+    <!-- De main content-->
+    <main>
+      <!-- Dit is de section met de content van de pagina-->
+      <section class="wrapperlatest">
+        <!-- Artikel met een titelheader en tekst-->
+        <article>
+          <img
+            src="images/News-Update-graphic.png"
+            alt="thumbnail news update"
+          />
+          <h3>August 2021 ESBC Development update</h3>
+          <button>READ MORE</button>
+        </article>
 
-  </section>
+        <!-- Artikel met een titelheader en tekst-->
+        <article>
+          <img
+            src="images/News-Update-graphic.png"
+            alt="thumbnail news update"
+          />
+          <h3>June 2021 ESBC Development update</h3>
+          <button>READ MORE</button>
+        </article>
 
-  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
+        <!-- Artikel met een titelheader en tekst-->
+        <article>
+          <img
+            src="images/updat-5-uai-516x516.png"
+            alt="thumbnail news update 5"
+          />
+          <h3>April 2021 ESBC Development update (2)</h3>
+          <button>READ MORE</button>
+        </article>
 
-</nav>
+        <!-- Artikel met een titelheader en tekst-->
+        <article>
+          <img
+            src="images/news-update-4-uai-516x516.png"
+            alt="thumbnail news update 4"
+          />
+          <h3>April 2021 ESBC Development update</h3>
+          <button>READ MORE</button>
+        </article>
 
-</header>	
+        <!-- Artikel met een titelheader en tekst-->
+        <article>
+          <img
+            src="images/thumb-esbc-scaled-uai-516x516.jpg"
+            alt="thumbnail ESBC logo"
+          />
+          <h3>ESBC FIGHTER ANNOUNCEMENT SHOW EPISODE 2</h3>
+          <button>READ MORE</button>
+        </article>
 
+        <!-- Artikel met een titelheader en tekst-->
+        <article>
+          <img
+            src="images/thumb-esbc-scaled-uai-516x516.jpg"
+            alt="thumbnail ESBC logo"
+          />
+          <h3>ESBC Official Alpha Gameplay Features (First look)</h3>
+          <button>READ MORE</button>
+        </article>
 
-<!-- De main content-->
-<main>
+        <!-- Artikel met een titelheader en tekst-->
+        <article>
+          <img
+            src="images/news-3-uai-516x516.png"
+            alt="thumbnail news update 3"
+          />
+          <h3>March 2021 ESBC Development update</h3>
+          <button>READ MORE</button>
+        </article>
 
-	<!-- Dit is de section met de content van de pagina-->
-	<section class="wrapperlatest">
+        <!-- Artikel met een titelheader en tekst-->
+        <article>
+          <img
+            src="images/News-Update-graphic.png"
+            alt="thumbnail news update"
+          />
+          <h3>ESBC FIGHTER ANNOUNCEMENT SHOW EPISODE 1</h3>
+          <button>READ MORE</button>
+        </article>
 
-	<!-- Artikel met een titelheader en tekst-->
-	<article>
-		<img src="images/News-Update-graphic.png">
-		<h3>August 2021 ESBC Development update</h3>
-		<button>READ MORE</button>
-		
-	</article>
+        <!-- Artikel met een titelheader en tekst-->
+        <article>
+          <img
+            src="images/legend-announcement-6-thumbnail-uai-516x516.png"
+            alt="thumbnail legend 6"
+          />
+          <h3>LEGEND ANNOUNCEMENT 6 - Rocky Marciano</h3>
+          <button>READ MORE</button>
+        </article>
 
+        <!-- Artikel met een titelheader en tekst-->
+        <article>
+          <img
+            src="images/legend-announcement-5-thumbnail-uai-516x516.png"
+            alt="thumbnail legend 5"
+          />
+          <h3>LEGEND ANNOUNCEMENT 5 - Floyd Patterson</h3>
+          <button>READ MORE</button>
+        </article>
 
-	<!-- Artikel met een titelheader en tekst-->
-	<article>
-		<img src="images/News-Update-graphic.png">
-		<h3>August 2021 ESBC Development update</h3>
-		<button>READ MORE</button>
-		
-	</article>
+        <!-- Artikel met een titelheader en tekst-->
+        <article>
+          <img
+            src="images/legend-announcement-4-thumbnail-uai-516x516.png"
+            alt="thumbnail legend 4"
+          />
+          <h3>LEGEND ANNOUNCEMENT 4 - Jack Johnson</h3>
+          <button>READ MORE</button>
+        </article>
 
-	
-	<!-- Artikel met een titelheader en tekst-->
-	<article>
-		<img src="images/News-Update-graphic.png">
-		<h3>August 2021 ESBC Development update</h3>
-		<button>READ MORE</button>
-		
-	</article>
+        <!-- Artikel met een titelheader en tekst-->
+        <article>
+          <img
+            src="images/legend-announcement-3-thumbnail-uai-516x516.png"
+            alt="thumbnail legend 3"
+          />
+          <h3>LEGEND ANNOUNCEMENT 3 - Jack Dempsey</h3>
+          <button>READ MORE</button>
+        </article>
 
+        <!-- Artikel met een titelheader en tekst-->
+        <article>
+          <img
+            src="images/legend-announcement-2-thumbnail-uai-516x516.png"
+            alt="thumbnail legend 2"
+          />
+          <h3>LEGEND ANNOUNCEMENT 2 - Joe Louis</h3>
+          <button>READ MORE</button>
+        </article>
 
-	<!-- Artikel met een titelheader en tekst-->
-	<article>
-		<img src="images/News-Update-graphic.png">
-		<h3>August 2021 ESBC Development update</h3>
-		<button>READ MORE</button>
-		
-	</article>
+        <!-- Artikel met een titelheader en tekst-->
+        <article>
+          <img
+            src="images/legend-announcement-1-thumbnail-uai-516x516.png"
+            alt="thumbnail legend 1"
+          />
+          <h3>LEGEND ANNOUNCEMENT 1 - Sugar Ray Robinson</h3>
+          <button>READ MORE</button>
+        </article>
 
-	
-	<!-- Artikel met een titelheader en tekst-->
-	<article>
-		<img src="images/News-Update-graphic.png">
-		<h3>August 2021 ESBC Development update</h3>
-		<button>READ MORE</button>
-		
-	</article>
+        <!-- Artikel met een titelheader en tekst-->
+        <article>
+          <img
+            src="images/News-Update-thumbnail-2-uai-516x516.png"
+            alt="thumbnail news update 2"
+          />
+          <h3>February 2021 ESBC Development update</h3>
+          <button>READ MORE</button>
+        </article>
 
+        <!-- Artikel met een titelheader en tekst-->
+        <article>
+          <img
+            src="images/dev-blog-thumbnail-uai-516x516.png"
+            alt="thumbnail dev blog 1"
+          />
+          <h3>January Character Creator Dev Blog 1</h3>
+          <button>READ MORE</button>
+        </article>
 
-	<!-- Artikel met een titelheader en tekst-->
-	<article>
-		<img src="images/News-Update-graphic.png">
-		<h3>August 2021 ESBC Development update</h3>
-		<button>READ MORE</button>
-		
-	</article>
+        <!-- Artikel met een titelheader en tekst-->
+        <article>
+          <img
+            src="images/News-Update-thumbnail-uai-516x516.png"
+            alt="thumbnail news update 1"
+          />
+          <h3>December ESBC Press Release</h3>
+          <button>READ MORE</button>
+        </article>
+      </section>
 
+      <!-- Het begin van de footer-->
+      <footer>
+        <!-- drie kolommen met footer navigatie-->
+        <nav>
+          <section>
+            <h3>INFORMATION</h3>
+            <hr />
+            <ul>
+              <li>
+                <i class="fas fa-arrow-right"></i>
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li>
+                <i class="fas fa-arrow-right"></i>
+                <a href="#">Contact Us</a>
+              </li>
+            </ul>
+          </section>
 
-	<!-- Artikel met een titelheader en tekst-->
-	<article>
-		<img src="images/News-Update-graphic.png">
-		<h3>August 2021 ESBC Development update</h3>
-		<button>READ MORE</button>
-		
-	</article>
+          <section>
+            <h3>ABOUT ESBC</h3>
+            <hr />
+            <ul>
+              <li>
+                <i class="fas fa-arrow-right"></i>
+                <a href="#">About ESBC</a>
+              </li>
+              <li>
+                <i class="fas fa-arrow-right"></i>
+                <a href="#">ESBC Features</a>
+              </li>
+            </ul>
+          </section>
 
+          <section>
+            <h3>GET IN TOUCH</h3>
+            <hr />
+            <ul>
+              <li>
+                <a href="#">social@esportsboxingclub.com</a>
+              </li>
+            </ul>
+          </section>
+        </nav>
 
-	<!-- Artikel met een titelheader en tekst-->
-	<article>
-		<img src="images/News-Update-graphic.png">
-		<h3>August 2021 ESBC Development update</h3>
-		<button>READ MORE</button>
-		
-	</article>
+        <!-- Copyright tekst-->
+        <article>
+          <p>© 2020 Copyright Steel City Interactive Site by</p>
+          <a href="https://www.seoleaders.co.uk/">SEO Leaders</a>
+        </article>
 
+        <!-- Social media iconen verkregen via fontawesome-->
 
-	<!-- Artikel met een titelheader en tekst-->
-	<article>
-		<img src="images/News-Update-graphic.png">
-		<h3>August 2021 ESBC Development update</h3>
-		<button>READ MORE</button>
-		
-	</article>
-
-
-	<!-- Artikel met een titelheader en tekst-->
-	<article>
-		<img src="images/News-Update-graphic.png">
-		<h3>August 2021 ESBC Development update</h3>
-		<button>READ MORE</button>
-		
-	</article>
-
-
-	<!-- Artikel met een titelheader en tekst-->
-	<article>
-		<img src="images/News-Update-graphic.png">
-		<h3>August 2021 ESBC Development update</h3>
-		<button>READ MORE</button>
-	</article>
-
-
-</section>
-
-<!-- Het begin van de footer-->
-	<footer>
-
-	   <nav>
-		   <section>
-			<h3>INFORMATION</h3>
-			<hr></hr>
-			<ul>
-				<li>
-					<i class="fas fa-arrow-right"></i>
-					<a href="#">Privacy Policy</a>
-				</li>
-				<li>
-					<i class="fas fa-arrow-right"></i>
-					<a href="#">Contact Us</a>
-				</li>
-			</ul>
-
-		</section>
-
-		<section>
-			<h3>ABOUT ESBC</h3>
-			<hr></hr>
-			<ul>
-				<li>
-					<i class="fas fa-arrow-right"></i>
-					<a href="#">About ESBC</a>
-				</li>
-				<li>
-					<i class="fas fa-arrow-right"></i>
-					<a href="#">ESBC Features</a>
-				</li>
-			</ul>
-		</section>
-
-		<section>
-			<h3>GET IN TOUCH</h3>
-			<hr></hr>
-			<ul>
-				<li>
-					<a href="#">social@esportsboxingclub.com</a>
-				</li>
-			</ul>
-		</section>
-		
-		</nav>
-
-		
-			<p>© 2020 Copyright Steel City Interactive      Site by
-				<a href="#">SEO Leaders</a>
-			</p>
-
-			<a>
-				<i></i>
-			</a>
-
-			<a>
-				<i></i>
-			</a>
-			<a>
-				<i></i>
-			</a>
-
-			<a>
-				<i></i>
-			</a>
-
-	</footer>
-
-
-
-
-
-
-
-
-
-
-
-
-</main>
-	<script src="scripts/script.js"></script>
-</body>
-	
+        <article>
+          <ul>
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </article>
+      </footer>
+    </main>
+    <script src="scripts/script.js"></script>
+  </body>
 </html>
