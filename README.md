@@ -193,8 +193,25 @@ dit kan met kleurgebruik en kaders.
 ### Stand van zaken
 
 <img src="images/voortgang1.jpg">
+
+Het logo bovenin wil niet centreren, ik begrijp niet echt wat de reden hiervan is want ik heb van alles geprobeerd.
+In het voortgangsgesprek hoop ik hier hulp mee te krijgen.
+
 <img src="images/voortgang2.jpg">
+
+De content layout op mijn eerste pagina ziet er nog niet zo goed uit.
+Ik denk dat dit vooral te maken heeft met de grootte van de afbeeldingen
+en dit is iets wat ik nog best lastig vindt om goed te krijgen. Vooral ook
+omdat het responsief moet zijn.
+
 <img src="images/voortgang3.jpg">
+
+Mijn hamburgermenu zorgt ervoor dat het menu op grotere formaten breekt. Als ik op het hamburger
+icoon klik dat zit veranderd de layout wat niet de bedoeling is. Ik vind dit lastig omdat ik niet
+weet wat de oplossing is, wel heb ik een idee en ik denk dat het met de javascript te maken heeft dus
+ik ga proberen daar mee te spelen en kijken of ik het kan oplossen. Robert heeft mij ook de tip gegeven
+om mij eerst volledig te focussen op het mobile first gedeelte en dan ga ik ook doen.
+<img src="images/voortgang5.jpg">
 <img src="images/voortgang4.jpg">
 
 ### Agenda voor meeting
@@ -211,10 +228,9 @@ samen met je groepje opstellen
 
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Ik moet nog werken aan de grootte van de afbeeldingen en gebruik maken van vw als waarden, dit zou kunnnen helpen.
+- Ik ga de teksten en buttons op mijn tweede pagina positioneren met position relative en position absolute
+- Ik gebruik flexbox voor de navigatie in de header en footer. Voor de content zal ik CSS grid gebruiken.
 
 </details>
 
@@ -225,11 +241,38 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik ben zeer tevreden met hoe het menu eruit ziet, het is volledig responief en ziet er uit zoals de referentie website.
+Het was best lastig om het goed responsief te krijgen en ik ben daarom dus trots op het eindresultaat.
+
+<img src="images/eind1.jpg">
+<img src="images/eind2.jpg">
+
+Het grid layout ziet er op beide pagina's goed uit. Ik vond het fijn om te werken met CSS grid. Het eindresultaat lijkt
+op de referentie website en ik heb zelf wat aanpassingen gemaakt om het er nog beter uit te laten zien aangezien de referentie
+website niet altijd netjes responsief was.
+
+<img src="images/eind3.jpg">
+<img src="images/eind4.jpg">
+<img src="images/eind5.jpg">
+
+Ik ben blij met de teksten en buttons op de thumbnails op mijn tweede pagina. Dit was best lastig om goed te krijgen
+op alle formaten.
+
+<img src="images/eind6.jpg">
+<img src="images/eind7.jpg">
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+<img src="images/eind8.jpg">
+<img src="images/eind9.jpg">
+<img src="images/eind10.jpg">
+<img src="images/eind11.jpg">
+<img src="images/eind12.jpg">
+<img src="images/eind13.jpg">
+<img src="images/eind14.jpg">
+<img src="images/eind15.jpg">
+<img src="images/eind16.jpg">
+<img src="images/eind17.jpg">
 
 </details>
 
@@ -238,10 +281,13 @@ hier screenshot(s) van je eindresultaat
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
-
-1. bron 1
-2. bron 2
-3. ...
+1. Hamburgermenu komt van https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+2. Poppins font komt van https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap
+3. Social media en arrow iconen komen van https://fontawesome.com/v5.15/icons?d=gallery&p=2
+4. Code pen voor CSS Grid van Robert komt van https://codepen.io/ilias071/pen/wvqVxxB
+5. Video tutorial over positioning https://www.youtube.com/watch?v=jx5jmI0UlXU&t=297s&ab_channel=WebDevSimplified
+6. Video tutorial over CSS Grid https://www.youtube.com/watch?v=jV8B24rSN5o&t=1135s&ab_channel=TraversyMedia
+7. Tutorial over object fit https://www.w3schools.com/css/css3_object-fit.asp
+8. Referentie/Originele website https://www.esportsboxingclub.com/
 
 </details>
