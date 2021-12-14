@@ -155,29 +155,33 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
+#### Goede zichtbaarheid met donkere bril
 
-Hier korte omschrijving (met indien nodig een afbeelding)
+Met de bril heb ik gestest of de website leesbaar is. De bril is erg donker en mijn website
+was verassend duidelijk te lezen. Dit kwam vooral doordat ik een hele donkere website heb met witte teksten.
+Het contrast is dus groot en dit zicht voor een goede leesbaarheid met deze bril.
+<img src="images/toegang2.jpg">
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Voor mijn website was dit al redelijk in orde, dit soort problemen kunnen opgelost worden door de juiste
+contrasten in je website toe te voegen. Een light en dark thema is ook een oplossing.
 
-#### Titel tweede bevinding.
+#### Een kleine beetje wazig met lichte bril.
 
-Hier korte omschrijving (met indien nodig een afbeelding)
+Met de tweede bril waarmee ik heb getest heb is de website nog steeds goed zichtbaar alleen viel
+het wel op dat de teksten wat wazig overkwamen. Het is leesbaar maar een klein beetje wazig.
+<img src="images/toegang3.jpg">
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Dit heeft waarschijnlijk te maken met de kleurcontrasten, Mijn website heeft veel zwarte en witte kleuren
+en dit zou de reden kunnen zijn dat het een wazige indruk geeft. De oplossing zou dus zijn om de kleurcontrasten
+wat aan te passen of de tekstgrootte te vergroten.
 
-#### Titel volgende bevinding.
+#### Focus op buttons is niet goed zichtbaar.
 
-Hier korte omschrijving (met indien nodig een afbeelding)
+De focus op de linkjes op mijn pagina is bijna niet te onderscheiden met de standaard styling
+en hover effecten.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-#### Titel nog een bevinding.
-
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Dit kan opgelost worden door simpelweg de focus styling aan te passen en deze onderscheidend te maken
+dit kan met kleurgebruik en kaders.
 
 </details>
 
@@ -188,17 +192,20 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+<img src="images/voortgang1.jpg">
+<img src="images/voortgang2.jpg">
+<img src="images/voortgang3.jpg">
+<img src="images/voortgang4.jpg">
 
 ### Agenda voor meeting
 
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Rosella Moens           | Ilias Ouyaliz       | Hong Zhou                           | Stefan Radouane                  |
+| ----------------------- | ------------------- | ----------------------------------- | -------------------------------- |
+| JS animation            | Flexbox en css grid | Met Media queries img src aanpassen | Accordion maken                  |
+| Darkmode colors in root | logo in midden      | 9 images toevoegen met 1 button     | SVG stroke uitlijnen naar binnen |
+| Footer flexen?          | images width        | hamburger menu animatie             | Pagina's overeenkomen            |
 
 ### Verslag van meeting
 
