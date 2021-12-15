@@ -1,6 +1,8 @@
 // JavaScript Document
 
-var hamburgerKnop = document.getElementById('hamburger');
+/* Event listener voor klikken hamburgerknop */
+var hamburgerKnop = document.querySelector(".icon");
+hamburgerKnop.addEventListener('click', myFunction); 
 
 /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
 
@@ -14,5 +16,5 @@ function myFunction() {
     }
   }
 
-  hamburgerKnop.addEventListener('click', myFunction());
+ 
   
